@@ -11,7 +11,7 @@ class SmartDevice:
 #Create a method to show status of the device
   def get_status():
     status="ON" if self.power_status else"OFF"
-    return f"{self.device_name} is{self.power_status}-{self.brand}
+    return f"{self.device_name} is{self.power_status}-{self.brand}"
 
 
 
